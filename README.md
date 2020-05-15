@@ -34,3 +34,10 @@ Blank lines are required both before and after the <collapse> and </collapse> ta
 <pdf src="/MY.pdf" />
 ```
 
+## BlogIndex
+
+In /blog/README.md
+
+```markdown
+<BlogIndex />
+```
