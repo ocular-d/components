@@ -12,7 +12,7 @@
       <h2>Getting Started</h2>
       <p>
         <a href="/install.html">Install</a><br />
-        <a href="/getting-started.html">Hello World - Onna in 6 Minutes</a><br />
+        <a href="/getting-started.html">Hello World</a><br />
       </p>
     </div>
     <div class="feature">
