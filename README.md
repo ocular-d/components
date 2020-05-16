@@ -41,3 +41,9 @@ In /blog/README.md
 ```markdown
 <BlogIndex />
 ```
+
+## Test Alert
+
+```markdown
+<TestAlert display-text="Test" />
+```
