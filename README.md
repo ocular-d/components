@@ -40,4 +40,11 @@ In /blog/README.md
 
 ```markdown
 <BlogIndex />
+``
+
+## TeaserBox
+
+```markdown
+<TeaserBox msg="This is my teaser." />
 ```
+
