@@ -48,3 +48,8 @@ In /blog/README.md
 <TeaserBox msg="This is my teaser." />
 ```
 
+## Test Alert
+
+```markdown
+<TestAlert display-text="Test" />
+```
