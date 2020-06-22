@@ -36,9 +36,9 @@ export default {
     padding: 5px;
     border-radius: 7px;
     font-size: small;
-    background: #3eaf7c;
+    background: #f3f5f7;
     margin-right: 5px;
-    color: white;
+    color: #001530;
     font-weight: 500;
   }
 </style>
