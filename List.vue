@@ -15,8 +15,8 @@
 export default {
   computed: {
     files() {
-      return this.$site.pages
-        .filter(p => { 
+      return this.$site.pages.sort().reverse()
+        .filter(p => {
           return p.path.indexOf('/changelogs/') >= 0;
         });
     }
