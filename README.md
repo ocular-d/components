@@ -28,7 +28,7 @@ Blank lines are required both before and after the <collapse> and </collapse> ta
    </collapse>
 ```
 
-## pdf
+## PDF
 
 ```markdown
 <pdf src="/MY.pdf" />
@@ -60,3 +60,7 @@ In /blog/README.md
 ```
 
 To check for video: https://github.com/zkSNACKs/WasabiDoc/blob/master/docs/.vuepress/config.js
+
+## Beta Banner
+
+<BetaBanner/>
