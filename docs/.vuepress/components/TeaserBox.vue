@@ -1,6 +1,6 @@
 <template>
   <div class="custom-block teaser">
-  <p class="custom-block-title">Key Point</p>
+  <p class="custom-block-title">Teaser</p>
   <p>
   {{ msg }}
   </p>
@@ -32,4 +32,3 @@ export default {
         background-color: #f3f5f7;
 }
 </style>
-
