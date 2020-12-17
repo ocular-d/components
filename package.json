@@ -1,10 +1,16 @@
 {
+  "name": "components",
+  "version": "0.0.1",
+  "description": "VuePress Components",
+  "author": "sven <sven@so36.net>",
+  "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.2",
+    "ocld-writing": "^0.0.2",
     "remark-cli": "^9.0.0",
     "remark-preset-lint-recommended": "^5.0.0",
     "vuepress": "^1.7.1"
