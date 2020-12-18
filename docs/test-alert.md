@@ -1,5 +1,5 @@
 ---
-title: Beta Banner
+title: Test Alert
 description: A banner component.
 meta:
   - name: "og:description"
@@ -21,7 +21,8 @@ tags:
 <BetaBanner/>
 ```
 
+## Example
 
-# Example
+Action button:
 
-<BetaBanner/>
+<TestAlert display-text="Test" />

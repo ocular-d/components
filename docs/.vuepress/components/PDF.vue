@@ -1,6 +1,6 @@
 <template>
     <div>
-        <a :href="src" target="_blank">Click here to view full size</a>
+        <a :href="src" target="_blank">Full size PDF</a>
         <object :data="src" type="application/pdf" width="100%" style="min-height:80vh">
             <iframe :src="srcUrlGoogle"></iframe>
             <parm name="view" value="FitH" />
@@ -17,5 +17,3 @@ export default {
     }
 }
 </script>
-
-    

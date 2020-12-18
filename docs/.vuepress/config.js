@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VuePress Components',
+  title: 'VuePress Components Library',
   description: 'Read my description ...',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
@@ -20,7 +20,10 @@ module.exports = {
     sidebar: [
       'beta-banner',
       'redoc',
-      'teaser'
+      'teaser',
+      'test-alert',
+      'collapse',
+      'pdf'
     ]
   }
 }

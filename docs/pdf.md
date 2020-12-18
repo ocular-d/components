@@ -1,5 +1,5 @@
 ---
-title: Beta Banner
+title: PDF
 description: A banner component.
 meta:
   - name: "og:description"
@@ -18,10 +18,12 @@ tags:
 ## Usage
 
 ```markdown
-<BetaBanner/>
+<PDF src="/pdf-sample.pdf" />
 ```
 
 
 # Example
 
-<BetaBanner/>
+Use Google PDF viewer:
+
+<PDF src="/pdf-sample.pdf" />
