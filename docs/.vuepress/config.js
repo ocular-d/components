@@ -30,7 +30,15 @@ module.exports = {
       'important',
       'disclaimer',
       'deprecated',
-      'links'
+      'links',
+      'upgrade'
     ]
-  }
+  },
+plugins: [
+  ['vuepress-plugin-container', {
+    type: 'upgrade',
+    before: info => `<UpgradePath title="${info}">`,
+    after: '</UpgradePath>'
+  }]
+]
 }
