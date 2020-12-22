@@ -24,7 +24,13 @@ module.exports = {
       'test-alert',
       'collapse',
       'pdf',
-      'youtube'
+      'youtube',
+      'features',
+      'bit',
+      'important',
+      'disclaimer',
+      'deprecated',
+      'links'
     ]
   }
 }
