@@ -23,7 +23,8 @@ module.exports = {
       'teaser',
       'test-alert',
       'collapse',
-      'pdf'
+      'pdf',
+      'youtube'
     ]
   }
 }
