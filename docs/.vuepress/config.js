@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VuePress Components Library',
+  title: 'VuePress Component Library',
   description: 'Read my description ...',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
