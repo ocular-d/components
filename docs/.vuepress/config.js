@@ -79,6 +79,20 @@ plugins: [
     type: 'upgrade',
     before: info => `<UpgradePath title="${info}">`,
     after: '</UpgradePath>'
-  }]
+  }],
+  [
+    'vuepress-plugin-container',
+    {
+      type: 'left',
+      defaultTitle: '',
+    },
+  ],
+  [
+    'vuepress-plugin-container',
+    {
+      type: 'right',
+      defaultTitle: '',
+    },
+  ]
 ]
 }
