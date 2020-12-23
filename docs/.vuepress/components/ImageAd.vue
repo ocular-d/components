@@ -1,15 +1,15 @@
 <template>
-  <p class="bit-sponsor">
-      <span>QA with GitHub Actions</span>
+  <p class="image">
+      <span><center>This is a decription</center></span>
       <img
         alt="bit"
-        src="https://raw.githubusercontent.com/ocular-d/vuepress-demo/master/docs/assets/docs-ci.png""
+        src="/example-image.png"
       >
   </p>
 </template>
 
-<style lang="stylus">
-.bit-sponsor
+<style lang="stylus" scoped>
+.image
   font-weight 600
   background-color #f3f6f8
   padding 0.6em 1.2em

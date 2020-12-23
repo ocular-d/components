@@ -1,6 +1,6 @@
 ---
-title: Bit
-description: Embed youtube video
+title: Image Ad
+description: Image Advertisement
 meta:
   - name: "og:description"
     content: A Banner component
@@ -18,9 +18,9 @@ tags:
 ## Usage
 
 ```markdown
-<Bit/>
+<ImageAd/>
 ```
 
 ## Example
 
-<Bit/>
+<ImageAd/>

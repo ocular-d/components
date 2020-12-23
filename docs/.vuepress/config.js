@@ -68,7 +68,8 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 1,
           children: [
-            'bit'
+            'image-ad',
+            'browser-shot'
           ]
 
         }
