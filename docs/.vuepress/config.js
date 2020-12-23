@@ -17,22 +17,62 @@ module.exports = {
   ],
 
   themeConfig: {
-    sidebar: [
-      'beta-banner',
-      'redoc',
-      'teaser',
-      'test-alert',
-      'collapse',
-      'pdf',
-      'youtube',
-      'features',
-      'bit',
-      'important',
-      'disclaimer',
-      'deprecated',
-      'links',
-      'upgrade'
-    ]
+      sidebar: [
+        {
+          title: 'Banner',   // required
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            'beta-banner',
+            'important',
+            'disclaimer',
+            'deprecated',
+            'teaser',
+            'test-alert'
+
+          ]
+        },
+        {
+          title: 'Media',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            'pdf',
+            'youtube'
+          ]
+
+        },
+        {
+          title: 'API',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            'redoc',
+          ]
+
+        },
+        {
+          title: 'Content',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            'collapse',
+            'features',
+            'links',
+            'upgrade'
+          ]
+
+        },
+        {
+          title: 'Images',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            'bit'
+          ]
+
+        }
+      ]
   },
 plugins: [
   ['vuepress-plugin-container', {
