@@ -13,8 +13,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import "../theme-styling/utils";
+<style lang="stylus" scoped>
 
 .UsefulLinks {
   padding: $spacing;

@@ -24,8 +24,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import "../theme-styling/utils";
+<style lang="stylus" scoped>
 
 .UsefulLinksSection {
   display: flex;
