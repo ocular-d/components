@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { FEATURES } from "./constants";
+import { FEATURES } from "../constants";
 
 export default {
   props: {
@@ -30,7 +30,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import './config.styl';
 
 .b-feature {
   display: grid;
