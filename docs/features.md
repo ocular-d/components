@@ -18,9 +18,9 @@ tags:
 ## Usage
 
 ```markdown
-<b-features :summary="true"/>
+<FeatureList :summary="true"/>
 ```
 
 ## Example
 
-<b-features :summary="true"/>
+<FeatureList :summary="true"/>

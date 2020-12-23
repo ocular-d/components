@@ -2,7 +2,7 @@
   <b-ul>
     <li v-for="feature in displayedFeatures" :key="feature.title" class="b-feature">
       <div>
-        <b-icon :name="feature.icon" size="lg" :circle="true" class="feature-icon"/>
+        <IconSVG :name="feature.icon" size="lg" :circle="true" class="feature-icon"/>
       </div>
       <div>
         <h4>{{ feature.title }}</h4>
