@@ -1,6 +1,6 @@
 ---
 title: Deprecated
-description: Embed youtube video
+description: A deprecated banner
 meta:
   - name: "og:description"
     content: A Banner component
@@ -18,7 +18,7 @@ tags:
 ## Usage
 
 ```markdown
-<Deprecated msg="@foobar"/>
+<Deprecated msg="@foobar" date="21.12.2021"/>
 ```
 
 ## Example

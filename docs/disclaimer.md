@@ -1,13 +1,14 @@
 ---
 title: Disclaimer
-description: Embed youtube video
+description: A disclaimer banner
 meta:
   - name: "og:description"
-    content: A Banner component
+    content: A disclaimer Banner component
   - name: keywords
-    content: A banner component.
+    content: A disclaimer banner component.
 tags:
   - Banner
+  - Disclaimer
 
 ---
 
@@ -24,3 +25,7 @@ tags:
 ## Example
 
 <Disclaimer />
+
+## Source
+
+[Disclaimer.vue](https://github.com/ocular-d/components/blob/main/docs/.vuepress/components/Disclaimer.vue)
