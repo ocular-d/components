@@ -40,3 +40,7 @@ By changing `:link="false"` to `:link="true` the image becomes a link.
 
 <img src="/example-image.png" alt="Screenshot of a VuePress site" />
 </BrowserShot>
+
+## Source
+
+Add here link to craft docs theme
