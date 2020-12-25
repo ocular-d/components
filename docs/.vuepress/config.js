@@ -69,7 +69,8 @@ module.exports = {
           sidebarDepth: 1,
           children: [
             'image-ad',
-            'browser-shot'
+            'browser-shot',
+            'cards'
           ]
 
         }
