@@ -70,7 +70,8 @@ module.exports = {
           children: [
             'image-ad',
             'browser-shot',
-            'cards'
+            'cards',
+            'image'
           ]
 
         }
