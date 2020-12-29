@@ -18,25 +18,14 @@ tags:
 ## Usage
 
 ```markdown
-<BrowserShot url="https://component.ocular-d.tech/" :link="false" caption="Screenshot of a VuePress site.">
-
+<ImageEmbed caption="Screenshot of a VuePress site">
 <img src="/example-image.png" alt="Screenshot of a VuePress site" />
-</BrowserShot>
-```
-
-By changing `:link="false"` to `:link="true` the image becomes a link.
-
-```markdown
-<BrowserShot url="https://component.ocular-d.tech/" :link="false" caption="Screenshot of a VuePress site.">
-
-<img src="/example-image.png" alt="Screenshot of a VuePress site" />
-</BrowserShot>
+</ImageEmbed>
 ```
 
 
 ## Example
 
-<ImageTest :link="false" caption="Screenshot of a VuePress site.">
-
+<ImageEmbed caption="Screenshot of a VuePress site">
 <img src="/example-image.png" alt="Screenshot of a VuePress site" />
-</ImageTest>
+</ImageEmbed>
