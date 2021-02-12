@@ -25,8 +25,8 @@ export default {
   .upgrade-path
     margin-top: 2em
     padding: 2em
-    background: rgba(73, 195, 140, .1)
-    border-radius: 2px
+    background-color: #d6ecff;
+    border-radius: 0.4rem
     > h4
       margin-top: 0
     > p:last-child

@@ -1,4 +1,8 @@
 module.exports = {
+  plugins: [
+    ['@vuepress/nprogress', true],
+    ['@vuepress/back-to-top', true],
+  ],
   title: 'VuePress Component Library',
   description: 'Read my description ...',
   head: [
@@ -12,11 +16,12 @@ module.exports = {
     rel: 'stylesheet',
     type: 'text/css',
     href: 'https://fonts.googleapis.com/css?family=Miriam+Libre:400,700'
-},],
+  },],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js'}]
   ],
 
   themeConfig: {
+    searchPlaceholder: 'Search...',
       sidebar: [
         {
           title: 'Banner',   // required
@@ -59,7 +64,8 @@ module.exports = {
             'collapse',
             'features',
             'links',
-            'upgrade'
+            'upgrade',
+            'header'
           ]
 
         },
