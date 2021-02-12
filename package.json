@@ -14,6 +14,7 @@
     "octicons": "^8.5.0",
     "remark-cli": "^9.0.0",
     "remark-preset-lint-recommended": "^5.0.0",
-    "vuepress": "^1.8.1"
+    "vuepress": "^1.8.1",
+    "vuepress-plugin-reading-time": "^0.1.1"
   }
 }

@@ -1,7 +1,6 @@
 ---
 title: Header
 description: A banner component
-readingTime: { text: "Not so long!", minutes: 3 }
 meta:
   - name: "og:description"
     content: A Banner component
@@ -16,4 +15,16 @@ tags:
 
 ---
 
-&#x1F4A1;
+<HeaderReadingTime />
+
+---
+
+### Header Two
+
+<Header2 />
+
+
+
+## Reading Time Component
+
+<ReadingTime/>

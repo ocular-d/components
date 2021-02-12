@@ -1,8 +1,4 @@
 module.exports = {
-  plugins: [
-    ['@vuepress/nprogress', true],
-    ['@vuepress/back-to-top', true],
-  ],
   title: 'VuePress Component Library',
   description: 'Read my description ...',
   head: [
@@ -84,6 +80,9 @@ module.exports = {
       ]
   },
 plugins: [
+  ['@vuepress/nprogress', true],
+  ['vuepress-plugin-reading-time', true],
+  ['@vuepress/back-to-top', true],
   ['vuepress-plugin-container', {
     type: 'upgrade',
     before: info => `<UpgradePath title="${info}">`,
