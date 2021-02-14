@@ -18,6 +18,11 @@ module.exports = {
 
   themeConfig: {
     searchPlaceholder: 'Search...',
+    repo: 'ocular-d/components',
+    nav: [
+      { text: 'Markdown Style Guide', link: 'https://ocular-d.github.io/styleguide-markdown/' },
+      { text: 'Content Style Guide', link: 'https://editorial.ocular-d.tech//' }
+    ],
       sidebar: [
         {
           title: 'Banner',   // required
