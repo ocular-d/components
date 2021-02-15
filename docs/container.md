@@ -1,8 +1,4 @@
-# Upgrade
-
-::: upgrade
-See: [@vuepress/plugin-pwa > Migration from 0.x](../plugin/official/plugin-pwa.md#migration-from-0-x)
-:::
+# Container
 
 ::: left
 Browse all [features](/features.md "Overview of the documentation updates").
