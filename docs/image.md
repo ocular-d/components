@@ -29,3 +29,7 @@ tags:
 <ImageEmbed caption="Screenshot of a VuePress site">
 <img src="/example-image.png" alt="Screenshot of a VuePress site" />
 </ImageEmbed>
+
+## Cimg
+
+<Cimg src='/example-image.png' width='100%' caption="VuePress Example"/>
