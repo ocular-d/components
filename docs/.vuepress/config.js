@@ -1,6 +1,6 @@
 module.exports = {
   title: 'VuePress Component Library',
-  description: 'Read my description ...',
+  description: 'Enhance your content with components',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['link', {
@@ -83,7 +83,7 @@ module.exports = {
 
         },
         {
-          title: 'Container',
+          title: 'VuePress Container',
           collapsable: false,
           sidebarDepth: 1,
           children: [
@@ -119,6 +119,16 @@ plugins: [
   [
     'vuepress-plugin-container',
     {
+      type: 'outdated',
+      before: (info) => `<div class="outdated"><p class="title">${info}</p>
+          <p><strong>This part of the documentation is currently not up to date!</strong></p>`
+        ,
+        after: '</div>'
+    }
+  ],
+  [
+    'vuepress-plugin-container',
+    {
       type: 'contribute',
       before: () => `<div class="tip custom-block">
           <p><strong>This section could use a little bit of love.</strong></p>
@@ -126,7 +136,7 @@ plugins: [
           <p>You'll find a link to edit this page at the bottom.</p>`
         ,
         after: '</div>'
-    },
+    }
   ]
 ]
 }
