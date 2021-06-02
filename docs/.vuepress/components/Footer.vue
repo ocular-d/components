@@ -25,33 +25,33 @@
   </footer>
 </template>
 
-<script>
-//import book from "../../../docs/book.json";
-export default {
-  props: {
-    texto: String,
-  },
-  data() {
-    return {
-      book: book.variables,
-    };
-  },
-  computed: {
-    autores() {
-      let texto = "Equipo CATEDU";
-      // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp
-      let regex = /(.*),(.*)/i;
-      console.log(this.book.authors.toString());
-      if (this.book.authors) {
-        this.book.authors.length > 1
-          ? (texto = this.book.authors.join(", ").replace(regex, "$1 y$2"))
-          : (texto = this.book.authors);
-      }
-      return texto;
-    },
-  },
-};
-</script>
+// <script>
+// //import book from "../../../docs/book.json";
+// export default {
+//   props: {
+//     texto: String,
+//   },
+//   data() {
+//     return {
+//       book: book.variables,
+//     };
+//   },
+//   computed: {
+//     autores() {
+//       let texto = "Equipo CATEDU";
+//       // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp
+//       let regex = /(.*),(.*)/i;
+//       console.log(this.book.authors.toString());
+//       if (this.book.authors) {
+//         this.book.authors.length > 1
+//           ? (texto = this.book.authors.join(", ").replace(regex, "$1 y$2"))
+//           : (texto = this.book.authors);
+//       }
+//       return texto;
+//     },
+//   },
+// };
+// </script>
 
 <style lang="stylus" scoped>
 .footer {
