@@ -221,6 +221,14 @@ h1, h2, h3
     color #ed0100;
     //font-size 0.9rem
 
+
+.outdated::before {
+    display: flex;
+    font-size: 2em;
+    //content: '"';
+    color: #ed3f7a;
+}
+
 .home .hero .description {
     max-width: 35rem;
     font-size: 1.6rem;
@@ -240,3 +248,77 @@ h1, h2, h3
 .custom-block.center
   text-align center
   padding 3em
+
+/* custom-container:balloon*/
+.balloon-right{
+  margin: 16px;
+  position: relative;
+  padding: 5px;
+  border-radius: 10px;
+  color: #000000;
+  background-color: #BBDEFB;
+  margin-left: 90px;
+}
+
+
+.balloon-right::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid #BBDEFB;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+
+.balloon-right .icon{
+  position: absolute;
+  top: 5px;
+  left: -80px;
+  width: 60px;
+  height: 60px;
+  background-size:cover;
+  border: solid 3px #1976D2;
+  border-radius: 50%;
+}
+
+.balloon-left{
+  margin: 16px;
+  position: relative;
+  padding: 5px;
+  border-radius: 10px;
+  color: #000000;
+  background-color: #F0F4C3;
+  margin-right: 90px;
+}
+
+/* 三角アイコン */
+.balloon-left::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -15px;
+  top: 20px;
+  border-left: 15px solid #F0F4C3;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+/*  */
+.balloon-left .icon{
+  position: absolute;
+  top: 5px;
+  right: -80px;
+  width: 60px;
+  height: 60px;
+  background-size:cover;
+  border: solid 3px #558B2F;
+  border-radius: 50%;
+}
+/* custom-container:balloon*/

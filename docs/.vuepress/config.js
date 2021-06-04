@@ -138,6 +138,24 @@ plugins: [
         ,
         after: '</div>'
     }
-  ]
+  ],
+  [
+    'vuepress-plugin-container',
+    {
+      type: 'balloon-right',
+      defaultTitle: '',
+      before: info => `<div class="balloon-right"><div class="icon"><img src="/logo.png"></div>${info}`,
+      after: '</div>',
+    },
+  ],
+  [
+    'vuepress-plugin-container',
+    {
+      type: 'balloon-left',
+      defaultTitle: '',
+      before: info => `<div class="balloon-left"><div class="icon"><img src="/logo.png"></div>${info}`,
+      after: '</div>',
+    },
+  ],
 ]
 }
