@@ -37,7 +37,7 @@ Test
 ---
 
 
-Below is taken from https://github.com/lando/lando, this needs tp be added to the credits and the source needs to be linked.
+Below is taken from https://github.com/lando/lando, this needs to be added to the credits and the source needs to be linked.
 
 ::: half EVANGELIST
 Present, train or speak about Lando at various meetups, camps and conferences and generally spread the good word across the galaxy

@@ -144,7 +144,7 @@ plugins: [
     {
       type: 'balloon-right',
       defaultTitle: '',
-      before: info => `<div class="balloon-right"><div class="icon"><img src="/logo.png"></div>${info}`,
+      before: info => `<div class="balloon-right"><div class="icon"><img src="https://ocular-d.github.io/components/logo.png"></div>${info}`,
       after: '</div>',
     },
   ],
@@ -153,7 +153,7 @@ plugins: [
     {
       type: 'balloon-left',
       defaultTitle: '',
-      before: info => `<div class="balloon-left"><div class="icon"><img src="/logo.png"></div>${info}`,
+      before: info => `<div class="balloon-left"><div class="icon"><img src="https://ocular-d.github.io/components/logo.png"></div>${info}`,
       after: '</div>',
     },
   ],
