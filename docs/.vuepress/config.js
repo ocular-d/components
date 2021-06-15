@@ -67,7 +67,8 @@ module.exports = {
             'features',
             'links',
             'upgrade',
-            'header'
+            'header',
+            'recommended-reading',
           ]
 
         },
