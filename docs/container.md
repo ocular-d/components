@@ -96,3 +96,11 @@ The authors full name (or whatever they want to have displayed).
 ::: flag repository
 The name of the repository (https://github.com/ACME/acme-example)
 :::
+
+---
+
+Source: https://thinktandem.io/blog/2020/08/11/using-markdown-containers-in-vuepress/
+
+::: quote
+Obi-Wan Kenobi
+:::

@@ -145,6 +145,15 @@ plugins: [
   [
     'vuepress-plugin-container',
     {
+      type: 'quote',
+      before: type => `<div class="quote ${type}">`,
+      after: '</div>',
+      defaultTitle: '',
+    }
+  ],
+  [
+    'vuepress-plugin-container',
+    {
       type: 'outdated',
       before: (info) => `<div class="outdated"><p class="title">${info}</p>
           <p><strong>This part of the documentation is currently not up to date!</strong></p>`
