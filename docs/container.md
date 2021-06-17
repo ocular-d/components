@@ -66,3 +66,33 @@ Help convince your org, boss or relevant decision maker to sponsor or purchase L
 ::: half SPONSOR
 Give the dollars and get exclusive benefits
 :::
+
+---
+
+Below containers are from: https://github.com/kudobuilder/kudo.dev
+
+::: half
+::: flex-box
+Hello this is a test
+:::
+
+
+::: flex-box
+Hello this is a test
+:::
+
+::: flex-box
+Hello this is a test
+:::
+
+::: teaser
+Moin
+:::
+
+::: flag name
+The authors full name (or whatever they want to have displayed).
+:::
+
+::: flag repository
+The name of the repository (https://github.com/ACME/acme-example)
+:::

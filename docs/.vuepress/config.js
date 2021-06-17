@@ -121,6 +121,30 @@ plugins: [
   [
     'vuepress-plugin-container',
     {
+      type: 'flex-box',
+      before: type => `<div class="flex-box ${type}">`,
+      after: '</div>'
+    }
+  ],
+  [
+    'vuepress-plugin-container',
+    {
+      type: 'teaser',
+      before: name => `<div class="teaser custom-block"><h2 class="custom-block-title">${name}</h2>`,
+      after: '</div>',
+    }
+  ],
+  [
+    'vuepress-plugin-container',
+    {
+      type: 'flag',
+      before: name => `<div class="flag"><code class="title" v-pre>${name}</code>`,
+      after: '</div>',
+    }
+  ],
+  [
+    'vuepress-plugin-container',
+    {
       type: 'outdated',
       before: (info) => `<div class="outdated"><p class="title">${info}</p>
           <p><strong>This part of the documentation is currently not up to date!</strong></p>`
